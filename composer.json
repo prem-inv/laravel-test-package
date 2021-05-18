@@ -1,5 +1,5 @@
 {
-    "name": "laravel/package-test",
+    "name": "prem-inv/laravel-package-test",
     "description": "Package to send SMS notifications through Exabytes API.",
     "type": "library",
     "license": "MIT",
