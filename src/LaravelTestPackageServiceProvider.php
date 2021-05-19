@@ -4,7 +4,7 @@ namespace Laravel\TestPackage;
 
 use Illuminate\Support\ServiceProvider;
 
-class ExabytesServiceProvider extends ServiceProvider
+class LaravelTestPackageServiceProvider extends ServiceProvider
 {
     /**
      * Publishes configuration file.
