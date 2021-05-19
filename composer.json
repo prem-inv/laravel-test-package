@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laravel\\PackageTest\\LaravelTestPackageServiceProvider"
+                "Laravel\\TestPackage\\LaravelTestPackageServiceProvider"
             ]
         }
     }
