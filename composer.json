@@ -14,7 +14,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Laravel\\PackageTest\\": "src/"
+            "Laravel\\TestPackage\\": "src/"
         }
     },
     "extra": {
