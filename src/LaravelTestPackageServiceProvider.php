@@ -14,7 +14,7 @@ class LaravelTestPackageServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/config.php' => config_path('config.php')
+            __DIR__ . '/../config/config.php' => config_path('config.php')
         ], 'config');
     }
 
@@ -26,8 +26,9 @@ class LaravelTestPackageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergingConfigFrom(
-            __DIR__.'/../config/config.php', 'config'
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/config.php',
+            'config'
         );
     }
 }
